@@ -1,0 +1,15 @@
+{
+  "format": "incremental-content",
+  "version": 1,
+  "cards": [
+    {
+      "id": "45980752-90e9-450b-9542-0a697f4278ce",
+      "question": "Why should a retried review request reuse the same action ID?",
+      "answer": "The server can recognize the original action and return its result without recording a second review.",
+      "explanation": "A timeout can happen after a successful database commit. A fresh action ID would make the retry look like another review.",
+      "tags": ["systems", "idempotency"],
+      "source_url": "",
+      "verified_on": null
+    }
+  ]
+}
